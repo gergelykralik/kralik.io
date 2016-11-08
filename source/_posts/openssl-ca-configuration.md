@@ -6,7 +6,7 @@ tags: security, how to, openssl
 ---
 
 This is a sample configuration file for OpenSSL. With this file you can issue (self-signed) certificates with alternative names enabled. 
-See [this post how to generate CSR with SAN](https://kralik.it/blog/2016/11/07/openssl-generate-csr-with-san), and [this post how to sign CSR with SAN](https://kralik.it/blog/2016/11/07/openssl-sign-csr-with-san).
+See [this post how to generate CSR with SAN](https://kralik.it/2016/11/07/openssl-generate-csr-with-san), and [this post how to sign CSR with SAN](https://kralik.it/2016/11/07/openssl-sign-csr-with-san).
 
 {% codeblock %}
 [ ca ]
@@ -90,7 +90,7 @@ keyUsage = critical, digitalSignature, cRLSign, keyCertSign
 [ usr_cert ]
 basicConstraints = CA:FALSE
 nsCertType = client, email
-nsComment = "Kralik CA Client Certificate"
+nsComment = "CA Client Certificate"
 subjectKeyIdentifier = hash
 authorityKeyIdentifier = keyid,issuer
 keyUsage = critical, nonRepudiation, digitalSignature, keyEncipherment
@@ -99,7 +99,7 @@ extendedKeyUsage = clientAuth, emailProtection
 [ server_cert ]
 basicConstraints = CA:FALSE
 nsCertType = server
-nsComment = "Kralik CA Generated Server Certificate"
+nsComment = "CA Generated Server Certificate"
 subjectKeyIdentifier = hash
 authorityKeyIdentifier = keyid,issuer:always
 keyUsage = critical, digitalSignature, keyEncipherment

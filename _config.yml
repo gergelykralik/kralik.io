@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: gergely kralik
+title: gergely králik
 subtitle:
-description: tech blog
+description: web developer, co-owner of <a href="https://kraga.sk/" target="_blank">KRAGA, spol. s r.o.</a><br>you can reach me via e-mail <a href="mailto:hello@kralik.it">hello@kralik.it</a><br><br>[ <a href="https://github.com/gergelykralik" target="_blank">github</a> ]<br>[ <a href="https://www.linkedin.com/in/gergelykralik" target="_blank">linkedin</a> ]<br>[ <a href="https://www.facebook.com/gergelykralik" target="_blank">facebook</a> ]<br>[ <a href="https://twitter.com/gergelykralik" target="_blank">twitter</a> ]
 author: Gergely Kralik
 language: en
 timezone: Europe/Bratislava
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://kralik.it/blog 
-root: /blog/
+url: https://kralik.it 
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -61,6 +61,8 @@ per_page: 10
 pagination_dir: page
 
 # Extensions
+sitemap:
+    path: sitemap.xml
 # Disqus comments
 disqus_shortname: kralik
 ## Plugins: https://hexo.io/plugins/
@@ -73,7 +75,7 @@ deploy:
   type: rsync
   host: alpha.kralik.it
   user: root
-  root: /var/www/kralik.it/blog
+  root: /var/www/kralik.it-blog
   port: 22
   delete: false
   verbose: true
