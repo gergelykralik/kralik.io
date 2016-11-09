@@ -6,7 +6,7 @@ tags: security, how to, openssl
 ---
 
 This is a sample configuration file for OpenSSL. With this file you can issue (self-signed) certificates with alternative names enabled. 
-See [this post how to generate CSR with SAN](https://kralik.it/2016/11/07/openssl-generate-csr-with-san), and [this post how to sign CSR with SAN](https://kralik.it/2016/11/07/openssl-sign-csr-with-san).
+See [this post how to generate CSR with SAN](https://kralik.io/2016/11/07/openssl-generate-csr-with-san), and [this post how to sign CSR with SAN](https://kralio.it/2016/11/07/openssl-sign-csr-with-san).
 
 {% codeblock %}
 [ ca ]

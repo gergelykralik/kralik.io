@@ -7,7 +7,7 @@ tags: security, openssl
 
 With this command you can generate a certificate signing request with the alternative names already in the CSR. If you want to add domain names use `DNS:example.com`, if you want to add IP address use this format: `IP:127.0.1.1`. You can add as many alternativa names as you wish, as separator use a comma.
 
-In this example I used the config file made in [this post](https://kralik.it/2016/11/02/openssl-ca-configuration).
+In this example I used the config file made in [this post](https://kralik.io/2016/11/02/openssl-ca-configuration).
 
 
 ```
@@ -24,4 +24,4 @@ openssl req -new -config conf/caconfig.cnf \
 	-nodes
 ```
 
-See my [next post on how to sign this CSR](https://kralik.it/2016/11/07/openssl-sign-csr-with-san).
+See my [next post on how to sign this CSR](https://kralik.io/2016/11/07/openssl-sign-csr-with-san).
