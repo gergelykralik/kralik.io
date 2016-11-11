@@ -65,6 +65,16 @@ sitemap:
     path: sitemap.xml
 # Disqus comments
 disqus_shortname: kralik
+# CSS minify
+clean_css:
+  exclude: 
+    - '*.min.css'
+# Feeds
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: flexy
