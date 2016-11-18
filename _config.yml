@@ -72,7 +72,7 @@ clean_css:
 # Feeds
 feed:
   type: atom
-  path: atom.xml
+  path: /atom.xml
   limit: 20
   hub:
 ## Plugins: https://hexo.io/plugins/
