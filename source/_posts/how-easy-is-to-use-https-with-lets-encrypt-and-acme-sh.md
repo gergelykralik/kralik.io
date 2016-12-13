@@ -85,7 +85,14 @@ acme.sh --issue -d kralik.io -d www.kralik.io -w /var/www/acme
 ### Install the certificate
 
 ```
-acme.sh --installcert -d kralik.io --reloadcmd "systemctl nginx/apache2 reload"
+acme.sh --installcert -d kralik.io \
+        --certpath "/new/path/to/cert/server.cer" \
+        --keypath "/new/path/to/cert/server.key" \
+        --capath "/new/path/to/cert/ca.cer" \
+        --fullchainpath "/new/path/to/cert/fullchain.cer" \
+        --reloadcmd "systemctl nginx/apache2 reload"
 ```
 
 After issuing this command the client will know which script to run after certificate renewal.
+
+**Update:** *The install script was updated with configuration allowing to copy the generated certificates from the default folder to some place else. It is advised by [acme.sh](https://acme.sh) to do so, because the default location also contains other important internal files of the script and its structure is subject to change.*
