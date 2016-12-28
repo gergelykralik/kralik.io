@@ -11,7 +11,7 @@ Let's get started. We will use a lightweight client called [Acme.sh](https://acm
 
 ### Start with installing the [Acme.sh](https://acme.sh/) client
 
-```
+```sh
 git clone https://github.com/Neilpang/acme.sh.git
 cd acme.sh
 ./acme.sh --install  \
@@ -35,7 +35,7 @@ Set the script to run at a random hour and minute to minimize the chance of `API
 Create a directory writable by your webserver. You will use this directory to generate the authentication requests.
 In this tutorial we will use `/var/www/acme`.
 
-```
+```sh
 mkdir /var/www/acme
 mkdir /var/www/acme/.well-known
 mkdir /var/www/acme/.well-known/acme-challenge
@@ -45,7 +45,7 @@ mkdir /var/www/acme/.well-known/acme-challenge
 
 Edit your main config file and add this alias:
 
-```
+```Apache
 Alias /.well-known/acme-challenge/ /var/www/acme/.well-known/acme-challenge/
 <Directory "//var/www/acme/.well-known/acme-challenge/">
     Options None
@@ -61,7 +61,7 @@ Restart apache and you are ready to request your certificate.
 
 Add theses lines to your server block:
 
-```
+```Nginx
 location ^~ /.well-known/acme-challenge/ {
     default_type "text/plain";
     root /var/www/acme/;
@@ -84,7 +84,7 @@ acme.sh --issue -d kralik.io -d www.kralik.io -w /var/www/acme
 
 ### Install the certificate
 
-```
+```sh
 acme.sh --installcert -d kralik.io \
         --certpath "/new/path/to/cert/server.cer" \
         --keypath "/new/path/to/cert/server.key" \
