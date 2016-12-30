@@ -83,7 +83,7 @@ theme: flexy
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: alpha.kralik.io
+  host: beta.kralik.io
   user: root
   root: /var/www/kralik.io
   port: 22
