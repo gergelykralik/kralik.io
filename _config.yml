@@ -83,10 +83,11 @@ theme: flexy
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: scw-kraga-01
+  host: scw-02
   user: root
   root: /www/kralik.io
   port: 22
+  args: '-og'
   delete: false
   verbose: true
   ignore_errors: false
