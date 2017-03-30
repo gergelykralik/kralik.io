@@ -1,11 +1,11 @@
 ---
 title: A year with Linux
-intro: I'm using Linux (Fedora 25 to be specific) on my main and work computer. It's been more than a year since I made the switch from Windows, but I never looked back.
+intro: I'm using GNU/Linux (Fedora 25 to be specific) on my main and work computer. It's been more than a year since I made the switch from Windows, but I never looked back.
 date: 2017-03-21 22:10:24
 tags: linux, no windows
 ---
 
-How great is having FOSS, and not to pay a dime for your OS? I'm usign Linux for my everyday tasks, aswell on my work computer. It's been more than a year since I made the switch from Windows.
+How great is having FOSS, and not to pay a dime for your OS? I'm usign GNU/Linux for my everyday tasks, aswell on my work computer. It's been more than a year since I made the switch from Windows.
 
 My current distribution of choice is [Fedora](https://getfedora.org). I always had linux in mind, but in the past I always failed to dive full into it, because of reasons. Reasons which are past now (lack of programs, incompatibility with hardware, etc.). As I see the main Linux distros grew tremendously in the past few years.
 
