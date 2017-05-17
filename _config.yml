@@ -5,7 +5,7 @@
 # Site
 title: gergely králik
 subtitle:
-description: web developer, co-owner of <a href="https://kraga.sk/" target="_blank">KRAGA, spol. s r.o.</a><br>you can reach me via e-mail <a href="mailto:hello@kralik.io">hello@kralik.io</a>
+description: web developer, freelancer
 author: Gergely Kralik
 language: en
 timezone: Europe/Bratislava
@@ -53,7 +53,7 @@ tag_map:
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+time_format: HH:mm
 
 # Pagination
 ## Set per_page to 0 to disable pagination
