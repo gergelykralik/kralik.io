@@ -2,7 +2,9 @@
 title: Configure MySQL for master/slave replication with data
 intro: How to configure MySQL master/slave replication with data already on the main server. Step by step instructions.
 date: 2016-11-15 08:15:22
-tags: how to, redundancy, mysql
+tags:
+  - how to
+  - mysql
 ---
 
 Recently I had to reconfigure our production database server, and had to set up MySQL for master/slave replication. The process is not too hard, but you need to keep in mind that at the time of starting the replication process you need to have identical data on both of the servers.

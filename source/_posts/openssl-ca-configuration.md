@@ -2,10 +2,13 @@
 title: OpenSSL CA configuration
 intro: This is a sample configuration file for OpenSSL. With this file you can issue (self-signed) certificates with alternative names enabled.
 date: 2016-11-02 14:04:00
-tags: security, how to, openssl
+tags:
+  - how to
+  - security
+  - openssl
 ---
 
-This is a sample configuration file for OpenSSL. With this file you can issue (self-signed) certificates with alternative names enabled. 
+This is a sample configuration file for OpenSSL. With this file you can issue (self-signed) certificates with alternative names enabled.
 See [this post how to generate CSR with SAN](https://kralik.io/2016/11/07/openssl-generate-csr-with-san), and [this post how to sign CSR with SAN](https://kralio.it/2016/11/07/openssl-sign-csr-with-san).
 
 {% codeblock %}

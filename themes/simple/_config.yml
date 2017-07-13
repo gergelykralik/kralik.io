@@ -1,0 +1,23 @@
+# Header
+menu:
+  ## If your site is put in a subdirectory, set Home as '/child/'
+  Home: /
+  Blog: /blog
+  Archive: /archive
+
+social:
+  email: hello@kralik.io
+  twitter: gergelykralik
+  facebook: gergelykralik
+  linkedin: gergelykralik
+  github: gergelykralik
+  googleplus:
+  rss: /atom.xml
+
+# Content
+fancybox: false
+
+pubkey: BFF7 83C8 289C 6A20 5F2B  E6C6 3D3A C4EE 8755 F906
+
+disqus: kralik
+google_analytics: UA-83940349-1

@@ -2,7 +2,9 @@
 title: How to use NetworkManager to connect to VPNSecure VPN service
 intro: I've made an updated script to automatically generate NetworkManager config for the VPN service offered by VPNSecure.me. They recently discontinued to support this method in favor their "desktop client", so here is the tested out and working generator.
 date: 2017-05-13 12:12:12
-tags: how to, vpn, vpnsecure, sh
+tags:
+  - how to
+  - vpnsecure
 ---
 
 VPNSecure.me offers a much needed service, to enhance your privacy. You can download the official (and somewhat buggy, Electron based) app, or you can configure the NetworkManager to serve up all the available servers to connect to.

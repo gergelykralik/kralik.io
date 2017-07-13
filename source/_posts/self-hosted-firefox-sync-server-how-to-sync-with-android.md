@@ -2,7 +2,10 @@
 title: Self hosted Firefox Sync server, how to sync with Android
 intro: Recently I tried to run my own Firefox Sync server. It's really great to own your content, but often you have hard time figuring things out. Here is how to set up the server to sync with Android devices.
 date: 2016-12-11 14:42:28
-tags: self-hosted, how to, firefox, sync
+tags:
+  - self-hosted
+  - how to
+  - Firefox sync
 ---
 
 Recently I tried the self-hosted version of [Firefox Sync](https://www.mozilla.org/en-US/firefox/sync/). Mozilla complicates the things a little, because you need to install two services to make it fully self-hosted:
@@ -19,7 +22,7 @@ You will need Python 2.7, virtualenv, common packages to build your server, and 
 
 The process itself is pretty straightforward, [check out the documentation on mozilla.com](https://docs.services.mozilla.com/howtos/run-sync-1.5.html)
 
-I used a public subdomain to set up the server, in this case just omit the port number and use the domain. Configure the path to the sqlite database. Of course you can use other databases too, but `MySQL` seems a bit of overkill for the task, but is you plan to make your server available for multiple people, you should consider upgrading. 
+I used a public subdomain to set up the server, in this case just omit the port number and use the domain. Configure the path to the sqlite database. Of course you can use other databases too, but `MySQL` seems a bit of overkill for the task, but is you plan to make your server available for multiple people, you should consider upgrading.
 
 Here is the relevant part form the file `syncserver.ini`
 
@@ -56,7 +59,7 @@ Cerate a virtual host. You can dedicate a whole subdomain for sync, or run it in
 </VirtualHost>
 ```
 
-At first you should set the `LogLevel info` parameter, because the wsgi process logs to the apache error log, and it's much easier to figure out what's wrong is you see the error message. 
+At first you should set the `LogLevel info` parameter, because the wsgi process logs to the apache error log, and it's much easier to figure out what's wrong is you see the error message.
 
 #### Manage the server
 

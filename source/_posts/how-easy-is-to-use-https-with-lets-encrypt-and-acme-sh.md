@@ -2,7 +2,9 @@
 title: How easy is to use HTTPS with Let's encrypt and acme.sh
 intro: Probably the most easy way to set up your https certificates with working auto renewal using Acme.sh client to generate certificates from Let's encrypt.
 date: 2016-11-26 20:00:35
-tags: howto, security, apache, nginx
+tags:
+  - how to
+  - security
 ---
 
 C'mon it's the end of 2016, if you don't use https you really should now. It's free, you only need to set it up once, and the rest is automated.
@@ -24,7 +26,7 @@ You should set up your account with an email address, so you won't miss the noti
 
 ### Configue the `cron` job (optional)
 
-The instaler script automatically sets up the cron job on your system, it's time to configure it. 
+The instaler script automatically sets up the cron job on your system, it's time to configure it.
 
 Enter the following command: `crontab -e`
 

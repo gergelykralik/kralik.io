@@ -8,6 +8,10 @@ Hi, I'm Gergely Králik, a web developer from Slovakia. I'm available for hire. 
 
 ---
 
+{% githubCard user:gergelykralik width:600 %}
+
+---
+
 ### Skills
 
 	- PHP

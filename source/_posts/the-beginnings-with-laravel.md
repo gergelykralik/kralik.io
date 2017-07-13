@@ -2,7 +2,8 @@
 title: The beginnings with Laravel
 intro: Recently started to learn Laravel, here are my first impressions. (a.k.a whydidntistartedwiththisearlier)
 date: 2017-03-04 07:57:07
-tags: php, framework, laravel
+tags:
+  - laravel
 ---
 
 Found tremendous number of excuses why I didn't want to start learning something new, like a framework. My arguments were, I don't need this (false), I have no time for this (false), I'm too tired (true, but whatever).
