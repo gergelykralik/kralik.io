@@ -8,12 +8,12 @@ Hi, I'm Gergely Králik, I'm a freelancer full-stack web developer. I'm a GNU/Li
 
 - **PHP** + SQL (MySQL, MSSQL)
   + *Laravel*, OOP, TDD
-	+ custom framework(s)
+  + custom framework(s)
 - **JavaScript** (+ HTML & CSS)
   + *Vue.js*, ES6 (ES7)
-	+ jQuery
-	+ *Sass*, Less
-	+ Webpack, et. al.
+  + jQuery
+  + *Sass*, Less
+  + Webpack, et. al.
 - **Node.js**
   + *Total.js*
 - **C / C++**
@@ -21,7 +21,7 @@ Hi, I'm Gergely Králik, I'm a freelancer full-stack web developer. I'm a GNU/Li
 - **Server administration**
   + *GNU/Linux*
   + Unix (BSD)
-	+ securing server instances, full configuration for production
+  + securing server instances, full configuration for production
 
 
 ## Portfolio
@@ -30,24 +30,24 @@ My recent projects are mainly written in *PHP*, using the *Laravel* framework. I
 
 - **direcreal.sk**
   + website for clients
-	+ admin panel for managing anything possible within the scope of reality
+  + admin panel for managing anything possible within the scope of reality
   + small websites for offices/agents
 - **panox.sk**
   + legacy codebase
-	  + panorama generation
-		+ embeddable video creator
-		+ CRM systems
-	+ e-shops, CMS systems
-	  + custom built to suit the needs of the client
+    + panorama generation
+    + embeddable video creator
+    + CRM systems
+  + e-shops, CMS systems
+    + custom built to suit the needs of the client
 - **dtx.sk**
-	+ websites (Laravel, mostly)
-	  + Naturpack (webforms)
-		+ Slovak gas trade union
-		+ Slovak tourims workers trade union
+  + websites (Laravel, mostly)
+    + Naturpack (webforms)
+    + Slovak gas trade union
+    + Slovak tourims workers trade union
 - **juhosys.sk**
-	+ Laravel development (custom CMS systems, e-shops, general websites)
+  + Laravel development (custom CMS systems, e-shops, general websites)
 - **static sites**
-	+ several generated sites (for example this blog)
+  + several generated sites (for example this blog)
 
 
 ## Work experience
