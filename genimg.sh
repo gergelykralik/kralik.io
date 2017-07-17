@@ -1,11 +1,11 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 createImage() {
     #mkdir ${1} 2>&1 >> /dev/null
-    convert -background gray20 -fill ivory2 -font Fira-Mono -pointsize 50 -size 1200x400 -gravity South \
-        caption:"${2}
+    convert -background gray20 -fill ivory2 -font Fira-Mono -pointsize 50 -size 1000x400 -gravity South \
+        -border 100 -bordercolor gray20 caption:"${2}
 
-                         kralik.io
+                     kralik.io
 " \
         ${1}/post.png
 }
@@ -20,12 +20,3 @@ for file in *.md; do
 done
 exit 0
 
-
-convert -background gray20  -fill ivory2  -font Fira-Mono -pointsize 50 \
-    -size 1200x400 -gravity Center  caption:'Hello, what is this, grrrrrrrr... ImageMagick Rules OK!
-
-
-                              kralik.io' \
-    image.png
-
-exo-open ./image.png
