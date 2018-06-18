@@ -2,7 +2,7 @@
 comments: false
 ---
 
-Hi, I'm Gergely Králik, I'm a freelancer full-stack web developer. I'm a GNU/Linux fan, and technology (mainly FOSS) enthusiast. My free time is spent mostly by reading, tweaking GNU/Linux servers - for fun - or at the gym. I'm currently **available for hire**, please contact me via [hello@kralik.io](mailto:hello@kralik.io) or via social media (links at the bottom).
+Hi, I'm Gergely Králik, I'm a freelancer full-stack web developer. 
 
 ## Key Skills (technologies, frameworks)
 
@@ -10,10 +10,10 @@ Hi, I'm Gergely Králik, I'm a freelancer full-stack web developer. I'm a GNU/Li
   + *Laravel*, OOP, TDD
   + custom framework(s)
 - **JavaScript** (+ HTML & CSS)
-  + *Vue.js*, ES6 (ES7)
+  + *Vue.js*, ES6
   + jQuery
   + *Sass*, Less
-  + Webpack, et. al.
+  + Webpack
 - **Node.js**
   + *Total.js*
 - **C / C++**
@@ -57,7 +57,7 @@ My recent projects are mainly written in *PHP*, using the *Laravel* framework. I
 
 &nbsp;
 
-*2016 - Present**
+*2016 - Present*
 > Consultant @ **[dtx s.r.o.](https://dtx.sk/)**
 
 &nbsp;
@@ -82,5 +82,4 @@ My recent projects are mainly written in *PHP*, using the *Laravel* framework. I
 
 - - - -
 
-**I'm available for *hire*.** If you are interested, please give me a ping via social media, or e-mail ([hello@kralik.io](mailto:hello@kralik.io)).
 If you have any questions or concerns, feel free to discuss it with me.
